@@ -1,0 +1,279 @@
+package com.gmail.murkateryna;
+
+import java.util.Scanner;
+
+public class HwTask2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Введите номер квартиры");
+
+		int a = sc.nextInt();
+		String Этаж;
+		switch (a) {
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+			Этаж = "Этаж 1";
+			System.out.println("Этаж 1");
+			break;
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+			Этаж = "Этаж 2";
+			System.out.println("Этаж 2");
+			break;
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+			System.out.println("Этаж 3");
+			break;
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+			System.out.println("Этаж 4");
+			break;
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+			System.out.println("Этаж 5");
+			break;
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+			System.out.println("Этаж 6");
+			break;
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+			System.out.println("Этаж 7");
+			break;
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+			System.out.println("Этаж 8");
+			break;
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+			System.out.println("Этаж 9");
+			break;
+
+		}
+
+		if (a <= 36) {
+			System.out.println("Подъезд 1");
+
+		}
+		switch (a) {
+		case 1 + 36:
+		case 2 + 36:
+		case 3 + 36:
+		case 4 + 36:
+			Этаж = "Этаж 1";
+			System.out.println("Этаж 1");
+			break;
+		case 5 + 36:
+		case 6 + 36:
+		case 7 + 36:
+		case 8 + 36:
+			Этаж = "Этаж 2";
+			System.out.println("Этаж 2");
+			break;
+		case 9 + 36:
+		case 10 + 36:
+		case 11 + 36:
+		case 12 + 36:
+			System.out.println("Этаж 3");
+			break;
+		case 13 + 36:
+		case 14 + 36:
+		case 15 + 36:
+		case 16 + 36:
+			System.out.println("Этаж 4");
+			break;
+		case 17 + 36:
+		case 18 + 36:
+		case 19 + 36:
+		case 20 + 36:
+			System.out.println("Этаж 5");
+			break;
+		case 21 + 36:
+		case 22 + 36:
+		case 23 + 36:
+		case 24 + 36:
+			System.out.println("Этаж 6");
+			break;
+		case 25 + 36:
+		case 26 + 36:
+		case 27 + 36:
+		case 28 + 36:
+			System.out.println("Этаж 7");
+			break;
+		case 29 + 36:
+		case 30 + 36:
+		case 31 + 36:
+		case 32 + 36:
+			System.out.println("Этаж 8");
+			break;
+		case 33 + 36:
+		case 34 + 36:
+		case 35 + 36:
+		case 36 + 36:
+			System.out.println("Этаж 9");
+			break;
+
+		}
+
+		if (a > 36 && a <= 36 + 36) {
+			System.out.println("Подъезд 2");
+
+		}
+		if (a > 36 + 36 && a <= 36 + 36 + 36) {
+			System.out.println("Подъезд 3");
+
+		}
+		switch (a) {
+		case 1 + 36 + 36:
+		case 2 + 36 + 36:
+		case 3 + 36 + 36:
+		case 4 + 36 + 36:
+			Этаж = "Этаж 1";
+			System.out.println("Этаж 1");
+			break;
+		case 5 + 36 + 36:
+		case 6 + 36 + 36:
+		case 7 + 36 + 36:
+		case 8 + 36 + 36:
+			Этаж = "Этаж 2";
+			System.out.println("Этаж 2");
+			break;
+		case 9 + 36 + 36:
+		case 10 + 36 + 36:
+		case 11 + 36 + 36:
+		case 12 + 36 + 36:
+			System.out.println("Этаж 3");
+			break;
+		case 13 + 36 + 36:
+		case 14 + 36 + 36:
+		case 15 + 36 + 36:
+		case 16 + 36 + 36:
+			System.out.println("Этаж 4");
+			break;
+		case 17 + 36 + 36:
+		case 18 + 36 + 36:
+		case 19 + 36 + 36:
+		case 20 + 36 + 36:
+			System.out.println("Этаж 5");
+			break;
+		case 21 + 36 + 36:
+		case 22 + 36 + 36:
+		case 23 + 36 + 36:
+		case 24 + 36 + 36:
+			System.out.println("Этаж 6");
+			break;
+		case 25 + 36 + 36:
+		case 26 + 36 + 36:
+		case 27 + 36 + 36:
+		case 28 + 36 + 36:
+			System.out.println("Этаж 7");
+			break;
+		case 29 + 36 + 36:
+		case 30 + 36 + 36:
+		case 31 + 36 + 36:
+		case 32 + 36 + 36:
+			System.out.println("Этаж 8");
+			break;
+		case 33 + 36 + 36:
+		case 34 + 36 + 36:
+		case 35 + 36 + 36:
+		case 36 + 36 + 36:
+			System.out.println("Этаж 9");
+			break;
+		}
+		if (a > 36 * 3 && a <= 36 * 4) {
+			System.out.println("Подъезд 4");
+
+		}
+
+		switch (a) {
+		case 1 + 36 + 36 + 36:
+		case 2 + 36 + 36 + 36:
+		case 3 + 36 + 36 + 36:
+		case 4 + 36 + 36 + 36:
+			Этаж = "Этаж 1";
+			System.out.println("Этаж 1");
+			break;
+		case 5 + 36 + 36 + 36:
+		case 6 + 36 + 36 + 36:
+		case 7 + 36 + 36 + 36:
+		case 8 + 36 + 36 + 36:
+			Этаж = "Этаж 2";
+			System.out.println("Этаж 2");
+			break;
+		case 9 + 36 + 36 + 36:
+		case 10 + 36 + 36 + 36:
+		case 11 + 36 + 36 + 36:
+		case 12 + 36 + 36 + 36:
+			System.out.println("Этаж 3");
+			break;
+		case 13 + 36 + 36 + 36:
+		case 14 + 36 + 36 + 36:
+		case 15 + 36 + 36 + 36:
+		case 16 + 36 + 36 + 36:
+			System.out.println("Этаж 4");
+			break;
+		case 17 + 36 + 36 + 36:
+		case 18 + 36 + 36 + 36:
+		case 19 + 36 + 36 + 36:
+		case 20 + 36 + 36 + 36:
+			System.out.println("Этаж 5");
+			break;
+		case 21 + 36 + 36 + 36:
+		case 22 + 36 + 36 + 36:
+		case 23 + 36 + 36 + 36:
+		case 24 + 36 + 36 + 36:
+			System.out.println("Этаж 6");
+			break;
+		case 25 + 36 + 36 + 36:
+		case 26 + 36 + 36 + 36:
+		case 27 + 36 + 36 + 36:
+		case 28 + 36 + 36 + 36:
+			System.out.println("Этаж 7");
+			break;
+		case 29 + 36 + 36 + 36:
+		case 30 + 36 + 36 + 36:
+		case 31 + 36 + 36 + 36:
+		case 32 + 36 + 36 + 36:
+			System.out.println("Этаж 8");
+			break;
+		case 33 + 36 + 36 + 36:
+		case 34 + 36 + 36 + 36:
+		case 35 + 36 + 36 + 36:
+		case 36 + 36 + 36 + 36:
+
+			System.out.println("Этаж 9");
+			break;
+
+		default:
+			Этаж ="unknown a";
+			break;
+		}
+		
+if (a>144) {
+	System.out.println("Несуществующая квартира");
+}
+		}
+	}
+
