@@ -1,0 +1,20 @@
+package com.gmail.murkateryna;
+
+import java.util.Scanner;
+
+public class HwTask3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a year");
+		int year = sc.nextInt();
+		if (year % 4 == 0 || year % 400 == 0) {
+			System.out.println("366 days in the year");
+		} else {
+			System.out.println("355 days in the year");
+		}
+
+	}
+
+}
